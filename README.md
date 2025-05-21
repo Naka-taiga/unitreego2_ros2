@@ -13,6 +13,7 @@ sudo apt install ros-humble-rosidl-generator-dds-idl
 
 build
 ```bash
+git clone https://github.com/eclipse-cyclonedds/cyclonedds -b releases/0.10.x 
 colcon build --symlink-install  --packages-select cyclonedds
 source install/setup.bash
 
